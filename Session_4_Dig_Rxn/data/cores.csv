@@ -1,6 +1,0 @@
-code_name,smiles
-C1,O=S(O[Mn]123([N+]4=C(C=CC=C4)C[N+]15CCC[C@H]5[C@@H]6CCC[N+]62CC7=[N+]3C=CC=C7)OS(=O)(C(F)(F)F)=O)(C(F)(F)F)=O
-C2,CC1=C(C(C)=C2[N+]([Mn]34(OS(=O)(C(F)(F)F)=O)(OS(=O)(C(F)(F)F)=O)[N+]5(CC6=C(C(OC)=C(C=[N+]64)C)C)[C@H]([C@@H]7CCC[N+]37C2)CCC5)=C1)OC
-C3,CN(C)C1=CC=[N+]([Mn]23(OS(=O)(C(F)(F)F)=O)(OS(=O)(C(F)(F)F)=O)[N+]4(CC5=CC(N(C)C)=CC=[N+]53)[C@H]([C@@H]6CCC[N+]26C7)CCC4)C7=C1
-C5,C[Si](C)(C)C1=CC=C2[N+]([Mn]3([N+]4([C@@H](CCC4)[C@@H]5CCC6)C2)([N+]56CC7=CC=C([Si](C)(C)C)C=[N+]73)(OS(=O)(C(F)(F)F)=O)OS(=O)(C(F)(F)F)=O)=C1
-C6,CC(C)[Si](C(C)C)(C(C)C)C1=CC=C2[N+]([Mn]3([N+]4([C@@H](CCC4)[C@@H]5CCC6)C2)([N+]56CC7=CC=C([Si](C(C)C)(C(C)C)C(C)C)C=[N+]73)(OS(=O)(C(F)(F)F)=O)OS(=O)(C(F)(F)F)=O)=C1

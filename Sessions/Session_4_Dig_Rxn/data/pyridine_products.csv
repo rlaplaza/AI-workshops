@@ -1,0 +1,145 @@
+product_name,product_smiles,alkyne,nitrile,regioisomer
+py_1,c1ccc(Cc2cc(-c3ccccc3)cc(-c3ccccc3)n2)cc1,Phenylacetylene,Phenylacetonitrile,conf_1
+py_2,c1ccc(Cc2nc(-c3ccccc3)ccc2-c2ccccc2)cc1,Phenylacetylene,Phenylacetonitrile,conf_2
+py_3,c1ccc(Cc2cc(-c3ccccc3)c(-c3ccccc3)cn2)cc1,Phenylacetylene,Phenylacetonitrile,conf_3
+py_4,c1ccc(Cc2ncc(-c3ccccc3)cc2-c2ccccc2)cc1,Phenylacetylene,Phenylacetonitrile,conf_4
+py_5,Cc1cc(-c2ccccc2)cc(-c2ccccc2)n1,Phenylacetylene,Acetonitrile,conf_1
+py_6,Cc1nc(-c2ccccc2)ccc1-c1ccccc1,Phenylacetylene,Acetonitrile,conf_2
+py_7,Cc1cc(-c2ccccc2)c(-c2ccccc2)cn1,Phenylacetylene,Acetonitrile,conf_3
+py_8,Cc1ncc(-c2ccccc2)cc1-c1ccccc1,Phenylacetylene,Acetonitrile,conf_4
+py_9,C=Cc1cc(-c2ccccc2)cc(-c2ccccc2)n1,Phenylacetylene,Acrylonitrile,conf_1
+py_10,C=Cc1nc(-c2ccccc2)ccc1-c1ccccc1,Phenylacetylene,Acrylonitrile,conf_2
+py_11,C=Cc1cc(-c2ccccc2)c(-c2ccccc2)cn1,Phenylacetylene,Acrylonitrile,conf_3
+py_12,C=Cc1ncc(-c2ccccc2)cc1-c1ccccc1,Phenylacetylene,Acrylonitrile,conf_4
+py_13,c1ccc(-c2cc(-c3ccccc3)nc(-c3ccccc3)c2)cc1,Phenylacetylene,Benzonitrile,conf_1
+py_14,c1ccc(-c2ccc(-c3ccccc3)c(-c3ccccc3)n2)cc1,Phenylacetylene,Benzonitrile,conf_2
+py_15,c1ccc(-c2cc(-c3ccccc3)c(-c3ccccc3)cn2)cc1,Phenylacetylene,Benzonitrile,conf_3
+py_16,c1ccc(-c2cnc(-c3ccccc3)c(-c3ccccc3)c2)cc1,Phenylacetylene,Benzonitrile,conf_4
+py_17,CC(C)c1cc(-c2ccccc2)cc(-c2ccccc2)n1,Phenylacetylene,Isobutyronitrile,conf_1
+py_18,CC(C)c1nc(-c2ccccc2)ccc1-c1ccccc1,Phenylacetylene,Isobutyronitrile,conf_2
+py_19,CC(C)c1cc(-c2ccccc2)c(-c2ccccc2)cn1,Phenylacetylene,Isobutyronitrile,conf_3
+py_20,CC(C)c1ncc(-c2ccccc2)cc1-c1ccccc1,Phenylacetylene,Isobutyronitrile,conf_4
+py_21,[C]1CC1c1cc(-c2ccccc2)cc(-c2ccccc2)n1,Phenylacetylene,2-Cyanocyclopropylidene,conf_1
+py_22,[C]1CC1c1nc(-c2ccccc2)ccc1-c1ccccc1,Phenylacetylene,2-Cyanocyclopropylidene,conf_2
+py_23,[C]1CC1c1cc(-c2ccccc2)c(-c2ccccc2)cn1,Phenylacetylene,2-Cyanocyclopropylidene,conf_3
+py_24,[C]1CC1c1ncc(-c2ccccc2)cc1-c1ccccc1,Phenylacetylene,2-Cyanocyclopropylidene,conf_4
+py_25,c1ccc(Cc2cc(Cc3ccccc3)nc(Cc3ccccc3)c2)cc1,3-Phenyl-1-propyne,Phenylacetonitrile,conf_1
+py_26,c1ccc(Cc2ccc(Cc3ccccc3)c(Cc3ccccc3)n2)cc1,3-Phenyl-1-propyne,Phenylacetonitrile,conf_2
+py_27,c1ccc(Cc2cc(Cc3ccccc3)c(Cc3ccccc3)cn2)cc1,3-Phenyl-1-propyne,Phenylacetonitrile,conf_3
+py_28,c1ccc(Cc2cnc(Cc3ccccc3)c(Cc3ccccc3)c2)cc1,3-Phenyl-1-propyne,Phenylacetonitrile,conf_4
+py_29,Cc1cc(Cc2ccccc2)cc(Cc2ccccc2)n1,3-Phenyl-1-propyne,Acetonitrile,conf_1
+py_30,Cc1nc(Cc2ccccc2)ccc1Cc1ccccc1,3-Phenyl-1-propyne,Acetonitrile,conf_2
+py_31,Cc1cc(Cc2ccccc2)c(Cc2ccccc2)cn1,3-Phenyl-1-propyne,Acetonitrile,conf_3
+py_32,Cc1ncc(Cc2ccccc2)cc1Cc1ccccc1,3-Phenyl-1-propyne,Acetonitrile,conf_4
+py_33,C=Cc1cc(Cc2ccccc2)cc(Cc2ccccc2)n1,3-Phenyl-1-propyne,Acrylonitrile,conf_1
+py_34,C=Cc1nc(Cc2ccccc2)ccc1Cc1ccccc1,3-Phenyl-1-propyne,Acrylonitrile,conf_2
+py_35,C=Cc1cc(Cc2ccccc2)c(Cc2ccccc2)cn1,3-Phenyl-1-propyne,Acrylonitrile,conf_3
+py_36,C=Cc1ncc(Cc2ccccc2)cc1Cc1ccccc1,3-Phenyl-1-propyne,Acrylonitrile,conf_4
+py_37,c1ccc(Cc2cc(Cc3ccccc3)nc(-c3ccccc3)c2)cc1,3-Phenyl-1-propyne,Benzonitrile,conf_1
+py_38,c1ccc(Cc2ccc(Cc3ccccc3)c(-c3ccccc3)n2)cc1,3-Phenyl-1-propyne,Benzonitrile,conf_2
+py_39,c1ccc(Cc2cnc(-c3ccccc3)cc2Cc2ccccc2)cc1,3-Phenyl-1-propyne,Benzonitrile,conf_3
+py_40,c1ccc(Cc2cnc(-c3ccccc3)c(Cc3ccccc3)c2)cc1,3-Phenyl-1-propyne,Benzonitrile,conf_4
+py_41,CC(C)c1cc(Cc2ccccc2)cc(Cc2ccccc2)n1,3-Phenyl-1-propyne,Isobutyronitrile,conf_1
+py_42,CC(C)c1nc(Cc2ccccc2)ccc1Cc1ccccc1,3-Phenyl-1-propyne,Isobutyronitrile,conf_2
+py_43,CC(C)c1cc(Cc2ccccc2)c(Cc2ccccc2)cn1,3-Phenyl-1-propyne,Isobutyronitrile,conf_3
+py_44,CC(C)c1ncc(Cc2ccccc2)cc1Cc1ccccc1,3-Phenyl-1-propyne,Isobutyronitrile,conf_4
+py_45,[C]1CC1c1cc(Cc2ccccc2)cc(Cc2ccccc2)n1,3-Phenyl-1-propyne,2-Cyanocyclopropylidene,conf_1
+py_46,[C]1CC1c1nc(Cc2ccccc2)ccc1Cc1ccccc1,3-Phenyl-1-propyne,2-Cyanocyclopropylidene,conf_2
+py_47,[C]1CC1c1cc(Cc2ccccc2)c(Cc2ccccc2)cn1,3-Phenyl-1-propyne,2-Cyanocyclopropylidene,conf_3
+py_48,[C]1CC1c1ncc(Cc2ccccc2)cc1Cc1ccccc1,3-Phenyl-1-propyne,2-Cyanocyclopropylidene,conf_4
+py_49,CC(N)c1cc(Cc2ccccc2)nc(C(C)N)c1,3-Butyn-2-amine,Phenylacetonitrile,conf_1
+py_50,CC(N)c1ccc(C(C)N)c(Cc2ccccc2)n1,3-Butyn-2-amine,Phenylacetonitrile,conf_2
+py_51,CC(N)c1cnc(Cc2ccccc2)cc1C(C)N,3-Butyn-2-amine,Phenylacetonitrile,conf_3
+py_52,CC(N)c1cnc(Cc2ccccc2)c(C(C)N)c1,3-Butyn-2-amine,Phenylacetonitrile,conf_4
+py_53,Cc1cc(C(C)N)cc(C(C)N)n1,3-Butyn-2-amine,Acetonitrile,conf_1
+py_54,Cc1nc(C(C)N)ccc1C(C)N,3-Butyn-2-amine,Acetonitrile,conf_2
+py_55,Cc1cc(C(C)N)c(C(C)N)cn1,3-Butyn-2-amine,Acetonitrile,conf_3
+py_56,Cc1ncc(C(C)N)cc1C(C)N,3-Butyn-2-amine,Acetonitrile,conf_4
+py_57,C=Cc1cc(C(C)N)cc(C(C)N)n1,3-Butyn-2-amine,Acrylonitrile,conf_1
+py_58,C=Cc1nc(C(C)N)ccc1C(C)N,3-Butyn-2-amine,Acrylonitrile,conf_2
+py_59,C=Cc1cc(C(C)N)c(C(C)N)cn1,3-Butyn-2-amine,Acrylonitrile,conf_3
+py_60,C=Cc1ncc(C(C)N)cc1C(C)N,3-Butyn-2-amine,Acrylonitrile,conf_4
+py_61,CC(N)c1cc(-c2ccccc2)nc(C(C)N)c1,3-Butyn-2-amine,Benzonitrile,conf_1
+py_62,CC(N)c1ccc(C(C)N)c(-c2ccccc2)n1,3-Butyn-2-amine,Benzonitrile,conf_2
+py_63,CC(N)c1cnc(-c2ccccc2)cc1C(C)N,3-Butyn-2-amine,Benzonitrile,conf_3
+py_64,CC(N)c1cnc(-c2ccccc2)c(C(C)N)c1,3-Butyn-2-amine,Benzonitrile,conf_4
+py_65,CC(C)c1cc(C(C)N)cc(C(C)N)n1,3-Butyn-2-amine,Isobutyronitrile,conf_1
+py_66,CC(C)c1nc(C(C)N)ccc1C(C)N,3-Butyn-2-amine,Isobutyronitrile,conf_2
+py_67,CC(C)c1cc(C(C)N)c(C(C)N)cn1,3-Butyn-2-amine,Isobutyronitrile,conf_3
+py_68,CC(C)c1ncc(C(C)N)cc1C(C)N,3-Butyn-2-amine,Isobutyronitrile,conf_4
+py_69,CC(N)c1cc(C(C)N)nc(C2[C]C2)c1,3-Butyn-2-amine,2-Cyanocyclopropylidene,conf_1
+py_70,CC(N)c1ccc(C(C)N)c(C2[C]C2)n1,3-Butyn-2-amine,2-Cyanocyclopropylidene,conf_2
+py_71,CC(N)c1cnc(C2[C]C2)cc1C(C)N,3-Butyn-2-amine,2-Cyanocyclopropylidene,conf_3
+py_72,CC(N)c1cnc(C2[C]C2)c(C(C)N)c1,3-Butyn-2-amine,2-Cyanocyclopropylidene,conf_4
+py_73,CC#CCc1cc(CC#CC)nc(Cc2ccccc2)c1,"1,4-Hexadiyne",Phenylacetonitrile,conf_1
+py_74,CC#CCc1ccc(CC#CC)c(Cc2ccccc2)n1,"1,4-Hexadiyne",Phenylacetonitrile,conf_2
+py_75,CC#CCc1cnc(Cc2ccccc2)cc1CC#CC,"1,4-Hexadiyne",Phenylacetonitrile,conf_3
+py_76,CC#CCc1cnc(Cc2ccccc2)c(CC#CC)c1,"1,4-Hexadiyne",Phenylacetonitrile,conf_4
+py_77,CC#CCc1cc(C)nc(CC#CC)c1,"1,4-Hexadiyne",Acetonitrile,conf_1
+py_78,CC#CCc1ccc(CC#CC)c(C)n1,"1,4-Hexadiyne",Acetonitrile,conf_2
+py_79,CC#CCc1cnc(C)cc1CC#CC,"1,4-Hexadiyne",Acetonitrile,conf_3
+py_80,CC#CCc1cnc(C)c(CC#CC)c1,"1,4-Hexadiyne",Acetonitrile,conf_4
+py_81,C=Cc1cc(CC#CC)cc(CC#CC)n1,"1,4-Hexadiyne",Acrylonitrile,conf_1
+py_82,C=Cc1nc(CC#CC)ccc1CC#CC,"1,4-Hexadiyne",Acrylonitrile,conf_2
+py_83,C=Cc1cc(CC#CC)c(CC#CC)cn1,"1,4-Hexadiyne",Acrylonitrile,conf_3
+py_84,C=Cc1ncc(CC#CC)cc1CC#CC,"1,4-Hexadiyne",Acrylonitrile,conf_4
+py_85,CC#CCc1cc(CC#CC)nc(-c2ccccc2)c1,"1,4-Hexadiyne",Benzonitrile,conf_1
+py_86,CC#CCc1ccc(CC#CC)c(-c2ccccc2)n1,"1,4-Hexadiyne",Benzonitrile,conf_2
+py_87,CC#CCc1cnc(-c2ccccc2)cc1CC#CC,"1,4-Hexadiyne",Benzonitrile,conf_3
+py_88,CC#CCc1cnc(-c2ccccc2)c(CC#CC)c1,"1,4-Hexadiyne",Benzonitrile,conf_4
+py_89,CC#CCc1cc(CC#CC)nc(C(C)C)c1,"1,4-Hexadiyne",Isobutyronitrile,conf_1
+py_90,CC#CCc1ccc(CC#CC)c(C(C)C)n1,"1,4-Hexadiyne",Isobutyronitrile,conf_2
+py_91,CC#CCc1cnc(C(C)C)cc1CC#CC,"1,4-Hexadiyne",Isobutyronitrile,conf_3
+py_92,CC#CCc1cnc(C(C)C)c(CC#CC)c1,"1,4-Hexadiyne",Isobutyronitrile,conf_4
+py_93,CC#CCc1cc(CC#CC)nc(C2[C]C2)c1,"1,4-Hexadiyne",2-Cyanocyclopropylidene,conf_1
+py_94,CC#CCc1ccc(CC#CC)c(C2[C]C2)n1,"1,4-Hexadiyne",2-Cyanocyclopropylidene,conf_2
+py_95,CC#CCc1cnc(C2[C]C2)cc1CC#CC,"1,4-Hexadiyne",2-Cyanocyclopropylidene,conf_3
+py_96,CC#CCc1cnc(C2[C]C2)c(CC#CC)c1,"1,4-Hexadiyne",2-Cyanocyclopropylidene,conf_4
+py_97,Cc1cc(C)nc(Cc2ccccc2)c1,Propyne,Phenylacetonitrile,conf_1
+py_98,Cc1ccc(C)c(Cc2ccccc2)n1,Propyne,Phenylacetonitrile,conf_2
+py_99,Cc1cnc(Cc2ccccc2)cc1C,Propyne,Phenylacetonitrile,conf_3
+py_100,Cc1cnc(Cc2ccccc2)c(C)c1,Propyne,Phenylacetonitrile,conf_4
+py_101,Cc1cc(C)nc(C)c1,Propyne,Acetonitrile,conf_1
+py_102,Cc1ccc(C)c(C)n1,Propyne,Acetonitrile,conf_2
+py_103,Cc1cc(C)c(C)cn1,Propyne,Acetonitrile,conf_3
+py_104,Cc1cnc(C)c(C)c1,Propyne,Acetonitrile,conf_4
+py_105,C=Cc1cc(C)cc(C)n1,Propyne,Acrylonitrile,conf_1
+py_106,C=Cc1nc(C)ccc1C,Propyne,Acrylonitrile,conf_2
+py_107,C=Cc1cc(C)c(C)cn1,Propyne,Acrylonitrile,conf_3
+py_108,C=Cc1ncc(C)cc1C,Propyne,Acrylonitrile,conf_4
+py_109,Cc1cc(C)nc(-c2ccccc2)c1,Propyne,Benzonitrile,conf_1
+py_110,Cc1ccc(C)c(-c2ccccc2)n1,Propyne,Benzonitrile,conf_2
+py_111,Cc1cnc(-c2ccccc2)cc1C,Propyne,Benzonitrile,conf_3
+py_112,Cc1cnc(-c2ccccc2)c(C)c1,Propyne,Benzonitrile,conf_4
+py_113,Cc1cc(C)nc(C(C)C)c1,Propyne,Isobutyronitrile,conf_1
+py_114,Cc1ccc(C)c(C(C)C)n1,Propyne,Isobutyronitrile,conf_2
+py_115,Cc1cnc(C(C)C)cc1C,Propyne,Isobutyronitrile,conf_3
+py_116,Cc1cnc(C(C)C)c(C)c1,Propyne,Isobutyronitrile,conf_4
+py_117,Cc1cc(C)nc(C2[C]C2)c1,Propyne,2-Cyanocyclopropylidene,conf_1
+py_118,Cc1ccc(C)c(C2[C]C2)n1,Propyne,2-Cyanocyclopropylidene,conf_2
+py_119,Cc1cnc(C2[C]C2)cc1C,Propyne,2-Cyanocyclopropylidene,conf_3
+py_120,Cc1cnc(C2[C]C2)c(C)c1,Propyne,2-Cyanocyclopropylidene,conf_4
+py_121,BrCc1cc(CBr)nc(Cc2ccccc2)c1,Propargyl bromide,Phenylacetonitrile,conf_1
+py_122,BrCc1ccc(CBr)c(Cc2ccccc2)n1,Propargyl bromide,Phenylacetonitrile,conf_2
+py_123,BrCc1cnc(Cc2ccccc2)cc1CBr,Propargyl bromide,Phenylacetonitrile,conf_3
+py_124,BrCc1cnc(Cc2ccccc2)c(CBr)c1,Propargyl bromide,Phenylacetonitrile,conf_4
+py_125,Cc1cc(CBr)cc(CBr)n1,Propargyl bromide,Acetonitrile,conf_1
+py_126,Cc1nc(CBr)ccc1CBr,Propargyl bromide,Acetonitrile,conf_2
+py_127,Cc1cc(CBr)c(CBr)cn1,Propargyl bromide,Acetonitrile,conf_3
+py_128,Cc1ncc(CBr)cc1CBr,Propargyl bromide,Acetonitrile,conf_4
+py_129,C=Cc1cc(CBr)cc(CBr)n1,Propargyl bromide,Acrylonitrile,conf_1
+py_130,C=Cc1nc(CBr)ccc1CBr,Propargyl bromide,Acrylonitrile,conf_2
+py_131,C=Cc1cc(CBr)c(CBr)cn1,Propargyl bromide,Acrylonitrile,conf_3
+py_132,C=Cc1ncc(CBr)cc1CBr,Propargyl bromide,Acrylonitrile,conf_4
+py_133,BrCc1cc(CBr)nc(-c2ccccc2)c1,Propargyl bromide,Benzonitrile,conf_1
+py_134,BrCc1ccc(CBr)c(-c2ccccc2)n1,Propargyl bromide,Benzonitrile,conf_2
+py_135,BrCc1cnc(-c2ccccc2)cc1CBr,Propargyl bromide,Benzonitrile,conf_3
+py_136,BrCc1cnc(-c2ccccc2)c(CBr)c1,Propargyl bromide,Benzonitrile,conf_4
+py_137,CC(C)c1cc(CBr)cc(CBr)n1,Propargyl bromide,Isobutyronitrile,conf_1
+py_138,CC(C)c1nc(CBr)ccc1CBr,Propargyl bromide,Isobutyronitrile,conf_2
+py_139,CC(C)c1cc(CBr)c(CBr)cn1,Propargyl bromide,Isobutyronitrile,conf_3
+py_140,CC(C)c1ncc(CBr)cc1CBr,Propargyl bromide,Isobutyronitrile,conf_4
+py_141,BrCc1cc(CBr)nc(C2[C]C2)c1,Propargyl bromide,2-Cyanocyclopropylidene,conf_1
+py_142,BrCc1ccc(CBr)c(C2[C]C2)n1,Propargyl bromide,2-Cyanocyclopropylidene,conf_2
+py_143,BrCc1cnc(C2[C]C2)cc1CBr,Propargyl bromide,2-Cyanocyclopropylidene,conf_3
+py_144,BrCc1cnc(C2[C]C2)c(CBr)c1,Propargyl bromide,2-Cyanocyclopropylidene,conf_4
