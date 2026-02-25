@@ -1,0 +1,199 @@
+AQME v 2.0.0 2026/02/25 19:10:39 
+Citation: AQME v 2.0.0, Alegre-Requena, J. V.; Sowndarya, S.; Perez-Soto, R.; Alturaifi, T.; Paton, R. AQME: Automated Quantum Mechanical Environments for Researchers and Educators. Wiley Interdiscip. Rev. Comput. Mol. Sci. 2023, 13, e1663 (DOI: 10.1002/wcms.1663).
+
+Command line used in AQME: python -m aqme --qdescp --input "AQME_indiv.csv" --program "xtb" --csv_name "AQME_indiv.csv" --nprocs "8" --robert
+
+xTB version used: 6.7.1
+
+
+Starting QDESCP-xtb with 1 job(s)
+
+
+
+   ----- mol_1000_rdkit -----
+
+
+   ----- mol_1001_rdkit -----
+
+
+   ----- mol_1002_rdkit -----
+
+
+   ----- mol_1008_rdkit -----
+
+
+   ----- mol_100_rdkit -----
+
+
+   ----- mol_1013_rdkit -----
+
+
+   ----- mol_1032_rdkit -----
+
+
+   ----- mol_1045_rdkit -----
+
+o  Running xTB and collecting properties (mol_1013_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_1000_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_1008_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_100_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_1045_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_1001_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_1002_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_1032_rdkit_conf_1)
+
+o  Running MORFEUS for mol_1013_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1008_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1032_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1001_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1000_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_100_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1045_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1002_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1001_rdkit_conf_2)
+
+o  Running xTB and collecting properties (mol_1013_rdkit_conf_2)
+
+
+   ----- mol_1048_rdkit -----
+
+o  Running MORFEUS for mol_1001_rdkit_conf_2 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1048_rdkit_conf_1)
+
+o  Running MORFEUS for mol_1013_rdkit_conf_2 with charge 0 and multiplicity 1
+
+
+   ----- mol_104_rdkit -----
+
+o  Running xTB and collecting properties (mol_104_rdkit_conf_1)
+
+
+   ----- mol_1050_rdkit -----
+
+o  Running xTB and collecting properties (mol_1050_rdkit_conf_1)
+
+o  Running MORFEUS for mol_1048_rdkit_conf_1 with charge 0 and multiplicity 1
+
+
+   ----- mol_1058_rdkit -----
+
+o  Running MORFEUS for mol_104_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1058_rdkit_conf_1)
+
+
+   ----- mol_1067_rdkit -----
+
+o  Running xTB and collecting properties (mol_1067_rdkit_conf_1)
+
+o  Running MORFEUS for mol_1050_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1058_rdkit_conf_1 with charge 0 and multiplicity 1
+
+
+   ----- mol_1069_rdkit -----
+
+o  Running xTB and collecting properties (mol_1069_rdkit_conf_1)
+
+o  Running MORFEUS for mol_1067_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1069_rdkit_conf_1 with charge 0 and multiplicity 1
+
+
+   ----- mol_106_rdkit -----
+
+o  Running xTB and collecting properties (mol_106_rdkit_conf_1)
+
+
+   ----- mol_1070_rdkit -----
+
+o  Running xTB and collecting properties (mol_1070_rdkit_conf_1)
+
+
+   ----- mol_1076_rdkit -----
+
+
+   ----- mol_1082_rdkit -----
+
+o  Running xTB and collecting properties (mol_1076_rdkit_conf_1)
+
+o  Running xTB and collecting properties (mol_1082_rdkit_conf_1)
+
+o  Running MORFEUS for mol_106_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1076_rdkit_conf_1 with charge 0 and multiplicity 1
+
+
+   ----- mol_1083_rdkit -----
+
+o  Running MORFEUS for mol_1070_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1083_rdkit_conf_1)
+
+o  Running MORFEUS for mol_1082_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1067_rdkit_conf_2)
+
+
+   ----- mol_1089_rdkit -----
+
+o  Running xTB and collecting properties (mol_1069_rdkit_conf_2)
+
+o  Running xTB and collecting properties (mol_1089_rdkit_conf_1)
+
+o  Running MORFEUS for mol_1067_rdkit_conf_2 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1083_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1069_rdkit_conf_2 with charge 0 and multiplicity 1
+
+o  Running MORFEUS for mol_1089_rdkit_conf_1 with charge 0 and multiplicity 1
+
+
+   ----- mol_109_rdkit -----
+
+o  Running xTB and collecting properties (mol_109_rdkit_conf_1)
+
+o  Running MORFEUS for mol_109_rdkit_conf_1 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1082_rdkit_conf_2)
+
+o  Running MORFEUS for mol_1082_rdkit_conf_2 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1067_rdkit_conf_3)
+
+o  Running MORFEUS for mol_1067_rdkit_conf_3 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1082_rdkit_conf_3)
+
+o  Running MORFEUS for mol_1082_rdkit_conf_3 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1067_rdkit_conf_4)
+
+o  Running MORFEUS for mol_1067_rdkit_conf_4 with charge 0 and multiplicity 1
+
+o  Running xTB and collecting properties (mol_1067_rdkit_conf_5)
+
+o  Running MORFEUS for mol_1067_rdkit_conf_5 with charge 0 and multiplicity 1
+
+o  Running RDKit and collecting molecular properties (for all inputs)
+o  The AQME-ROBERT_full_AQME_indiv.csv, AQME-ROBERT_denovo_AQME_indiv.csv and AQME-ROBERT_interpret_AQME_indiv.csv databases were created in C:\Users\D.Dalmau\OneDrive - unizar.es\Desktop\Curso ML Zrz\Clases\ROBERT\Examples_AQME\Solubility
+
+Time QDESCP: 16.91 seconds
+

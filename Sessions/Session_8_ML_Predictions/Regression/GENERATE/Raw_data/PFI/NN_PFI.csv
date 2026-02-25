@@ -1,0 +1,2 @@
+model,type,kfold,repeat_kfolds,seed,error_type,y,names,X_descriptors,params,combined_rmse,split
+NN,reg,5,1,0,rmse,Target_values,Name,"['x5', 'Csub-H', 'x9', 'Csub-Csub', 'H-O']","{'hidden_layer_1': 9, 'hidden_layer_2': 9, 'max_iter': 430, 'alpha': 0.03147575276895273, 'tol': 0.0001, 'random_state': 0, 'solver': 'lbfgs'}",0.46926987574815415,even

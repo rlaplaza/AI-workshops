@@ -1,0 +1,64 @@
+ROBERT v 2.1.0 2026/02/25 19:10:39 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "solubility_short.csv" --y "solubility" --names "code_name" --repeat_kfolds "1" --aqme --descp_lvl "interpret"
+
+
+o  Starting tests to verify the prediction ability of the ML models with the VERIFY module
+
+
+------- Starting model with all variables (No PFI) -------
+
+o  Database NN_db.csv loaded successfully, including:
+   - 21 datapoints
+   - 7 accepted descriptors
+   - 3 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model No_PFI (with no PFI filter) and Xy database were loaded, including:
+   - Target value: solubility
+   - Names: code_name
+   - Model: NN
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['Dipole module', 'Fermi-level', 'G solv. in H2O', 'HOMO', 'IP', 'LUMO', 'Polarizability']
+   - Training points: 17
+   - Test points: 4
+
+   o  VERIFY plot saved in VERIFY/VERIFY_tests_NN_No_PFI.png
+      Results of flawed models and sorted cross-validation:
+      Original RMSE (1x 5-fold CV) 0.43 + 15% & 30% threshold = 0.49 & 0.56
+         o y_mean: PASSED, RMSE = 1.4, higher than thresholds
+         o y_shuffle: PASSED, RMSE = 2.5, higher than thresholds
+         o onehot: PASSED, RMSE = 1.5, higher than thresholds
+         - Sorted 5-fold CV : R2 = [0.03, 0.59, 0.95, 0.98, 0.53], MAE = [0.56, 0.42, 0.37, 0.27, 0.35], RMSE = [0.63, 0.45, 0.39, 0.3, 0.45]
+
+
+------- Starting model with PFI filter (only important descriptors used) -------
+
+o  Database NN_PFI_db.csv loaded successfully, including:
+   - 21 datapoints
+   - 7 accepted descriptors
+   - 3 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model PFI (with PFI filter) and Xy database were loaded, including:
+   - Target value: solubility
+   - Names: code_name
+   - Model: NN
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['Polarizability', 'G solv. in H2O', 'HOMO']
+   - Training points: 17
+   - Test points: 4
+
+   o  VERIFY plot saved in VERIFY/VERIFY_tests_NN_PFI.png
+      Results of flawed models and sorted cross-validation:
+      Original RMSE (1x 5-fold CV) 0.83 + 15% & 30% threshold = 0.95 & 1.1
+         o y_mean: PASSED, RMSE = 1.4, higher than thresholds
+         o y_shuffle: PASSED, RMSE = 2.6, higher than thresholds
+         o onehot: PASSED, RMSE = 1.5, higher than thresholds
+         - Sorted 5-fold CV : R2 = [0.63, 0.98, 0.99, 0.72, 0.9], MAE = [0.43, 0.94, 0.71, 0.62, 0.74], RMSE = [0.48, 0.95, 0.81, 0.75, 0.79]
+
+Time VERIFY: 2.02 seconds
+

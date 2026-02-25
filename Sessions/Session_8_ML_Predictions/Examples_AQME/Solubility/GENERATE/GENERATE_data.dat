@@ -1,0 +1,62 @@
+ROBERT v 2.1.0 2026/02/25 19:10:39 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "solubility_short.csv" --y "solubility" --names "code_name" --repeat_kfolds "1" --aqme --descp_lvl "interpret"
+
+
+o  Starting generation of ML models with the GENERATE module
+
+o  Database AQME-ROBERT_interpret_solubility_short_CURATE.csv loaded successfully, including:
+   - 21 datapoints
+   - 9 accepted descriptors
+   - 2 ignored descriptors
+   - 0 discarded descriptors
+
+o  Starting heatmap scan with 4 ML models (['RF', 'GB', 'NN', 'MVL']).
+   Heatmap generation:
+   o Starting BO-based hyperoptimization using the combined target:
+                    
+     1. 50% = RMSE from a 1x repeated 5-fold CV (interpoplation)
+                    
+     2. 50% = RMSE from the bottom or top (worst performing) fold in a sorted 5-fold CV (extrapolation)
+                    
+
+   - 1/4 - ML model: RF 
+      o Using model-specific curated database: AQME-ROBERT_interpret_solubility_short_CURATE_RF.csv
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Best combined RMSE (target) found in BO for RF (no PFI filter): 1.4
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Combined RMSE for RF (with PFI filter): 1.4
+   - 2/4 - ML model: GB 
+      o Using model-specific curated database: AQME-ROBERT_interpret_solubility_short_CURATE_GB.csv
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Best combined RMSE (target) found in BO for GB (no PFI filter): 1.4
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Combined RMSE for GB (with PFI filter): 1.5
+   - 3/4 - ML model: NN 
+      o Using model-specific curated database: AQME-ROBERT_interpret_solubility_short_CURATE_NN.csv
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Best combined RMSE (target) found in BO for NN (no PFI filter): 0.53
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Combined RMSE for NN (with PFI filter): 0.74
+   - 4/4 - ML model: MVL 
+      o Using model-specific curated database: AQME-ROBERT_interpret_solubility_short_CURATE_MVL.csv
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Combined RMSE for MVL (no BO needed) (no PFI filter): 0.95
+
+o  Before hyperoptimization, 20% of the data (or 4 points at least) was separated as test set, using an even distribution of data points across the range of y values.
+   o Combined RMSE for MVL (with PFI filter): 0.85
+
+o  Heatmap_ML_models_No_PFI succesfully created in GENERATE/Raw_data
+
+o  Heatmap_ML_models_PFI succesfully created in GENERATE/Raw_data
+
+Time GENERATE: 30.76 seconds
+

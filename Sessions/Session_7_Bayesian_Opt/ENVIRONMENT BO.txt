@@ -1,0 +1,4 @@
+- Ir a la carpeta de edboplus-main (con Anaconda Prompt)
+- conda create --name edbo_env python=3.9
+- conda activate edbo_env 
+- pip install -e .

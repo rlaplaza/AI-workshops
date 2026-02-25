@@ -1,0 +1,139 @@
+ROBERT v 2.1.0 2026/02/25 19:10:39 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "solubility_short.csv" --y "solubility" --names "code_name" --repeat_kfolds "1" --aqme --descp_lvl "interpret"
+
+
+o  Representation of predictions and analysis of ML models with the PREDICT module
+
+
+------- Starting model with all variables (No PFI) -------
+
+o  Database NN_db.csv loaded successfully, including:
+   - 21 datapoints
+   - 7 accepted descriptors
+   - 3 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model No_PFI (with no PFI filter) and Xy database were loaded, including:
+   - Target value: solubility
+   - Names: code_name
+   - Model: NN
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['Dipole module', 'Fermi-level', 'G solv. in H2O', 'HOMO', 'IP', 'LUMO', 'Polarizability']
+   - Training points: 17
+   - Test points: 4
+   o  Saving CSV databases with predictions and their SD in:
+      -  Predicted results of starting dataset: PREDICT/NN_No_PFI.csv
+
+   o  Saving graphs in:
+      -  Graph in: PREDICT/Results_NN_No_PFI.png
+      -  Graph in: PREDICT/CV_variability_NN_No_PFI.png
+
+   o  Summary of results NN_No_PFI:
+      -  Points CV (train+valid.):Test = 17:4
+      -  Proportion CV (train+valid.):Test = 81:19
+      -  Number of descriptors = 7
+      -  Proportion (train+valid.) points:descriptors = 17:7
+      -  1x 5-fold CV : R2 = 0.91, MAE = 0.29, RMSE = 0.43
+      -  Test : R2 = 0.81, MAE = 0.54, RMSE = 0.62
+      -  Average SD in test set = 0.23
+      -  y range of dataset (train+valid.) = -3.5 to 0.94, total 4.4
+
+   o  SHAP plot saved in PREDICT/SHAP_NN_No_PFI.png
+      -  Polarizability = min: -1.9, max: 1.5
+      -  G solv. in H2O = min: -0.52, max: 1.3
+      -  HOMO = min: -0.5, max: 1.1
+      -  LUMO = min: -0.54, max: 0.55
+      -  Fermi-level = min: -1.2, max: 0.31
+      -  Dipole module = min: -0.13, max: 0.23
+      -  IP = min: -0.041, max: 0.085
+
+   o  PFI plot saved in PREDICT/PFI_NN_No_PFI.png
+      Influence on RMSE
+      -  Polarizability = 1.7 +- 0.17
+      -  G solv. in H2O = 0.67 +- 0.096
+      -  HOMO = 0.61 +- 0.09
+      -  Fermi-level = 0.59 +- 0.11
+      -  LUMO = 0.47 +- 0.096
+      -  Dipole module = 0.18 +- 0.032
+      -  IP = 0.11 +- 0.021
+
+   o  The Pearson heatmap was stored in PREDICT/Pearson_heatmap_No_PFI.png.
+      Ideally, variables should show low correlations.
+      x  WARNING! Noticeable correlations observed (up to r = -0.82 or R2 = 0.66, for Dipole module and G solv. in H2O)
+
+   o  Outliers plot saved in PREDICT/Outliers_NN_No_PFI.png
+      Train: 1 outliers out of 17 datapoints (5.9%)
+      -  mol_1083 (3.6 SDs)
+      Test: 1 outliers out of 4 datapoints (25.0%)
+      -  mol_1070 (2.0 SDs)
+
+   o  y-values distribution plot saved in PREDICT/y_distribution_NN_No_PFI.png
+      Ideally, the number of datapoints in the four quartiles of the y-range should be uniform (25% population in each quartile) to have similar confidence intervals in the predictions across the y-range
+      -  The number of points in each quartile is Q1: 5, Q2: 7, Q3: 3, Q4: 6
+      x  WARNING! Your data is slightly not uniform (Q3 has 3 points while Q2 has 7)
+
+
+------- Starting model with PFI filter (only important descriptors used) -------
+
+o  Database NN_PFI_db.csv loaded successfully, including:
+   - 21 datapoints
+   - 7 accepted descriptors
+   - 3 ignored descriptors
+   - 0 discarded descriptors
+
+o  ML model PFI (with PFI filter) and Xy database were loaded, including:
+   - Target value: solubility
+   - Names: code_name
+   - Model: NN
+   - k-fold CV: 5
+   - Repetitions CV: 1
+   - Descriptors: ['Polarizability', 'G solv. in H2O', 'HOMO']
+   - Training points: 17
+   - Test points: 4
+   o  Saving CSV databases with predictions and their SD in:
+      -  Predicted results of starting dataset: PREDICT/NN_PFI.csv
+
+   o  Saving graphs in:
+      -  Graph in: PREDICT/Results_NN_PFI.png
+      -  Graph in: PREDICT/CV_variability_NN_PFI.png
+
+   o  Summary of results NN_PFI:
+      -  Points CV (train+valid.):Test = 17:4
+      -  Proportion CV (train+valid.):Test = 81:19
+      -  Number of descriptors = 3
+      -  Proportion (train+valid.) points:descriptors = 17:3
+      -  1x 5-fold CV : R2 = 0.68, MAE = 0.62, RMSE = 0.83
+      -  Test : R2 = 0.86, MAE = 0.88, RMSE = 0.97
+      -  Average SD in test set = 0.69
+      -  y range of dataset (train+valid.) = -3.5 to 0.94, total 4.4
+
+   o  SHAP plot saved in PREDICT/SHAP_NN_PFI.png
+      -  Polarizability = min: -2.2, max: 2.0
+      -  HOMO = min: -1.1, max: 1.8
+      -  G solv. in H2O = min: -0.89, max: 1.8
+
+   o  PFI plot saved in PREDICT/PFI_NN_PFI.png
+      Influence on RMSE
+      -  Polarizability = 2.1 +- 0.2
+      -  HOMO = 1.1 +- 0.13
+      -  G solv. in H2O = 1.0 +- 0.18
+
+   o  The Pearson heatmap was stored in PREDICT/Pearson_heatmap_PFI.png.
+      Ideally, variables should show low correlations.
+      o  Correlations between variables are acceptable
+
+   o  Outliers plot saved in PREDICT/Outliers_NN_PFI.png
+      Train: 1 outliers out of 17 datapoints (5.9%)
+      -  mol_1083 (2.5 SDs)
+      Test: 0 outliers out of 4 datapoints (0.0%)
+
+   o  y-values distribution plot saved in PREDICT/y_distribution_NN_PFI.png
+      Ideally, the number of datapoints in the four quartiles of the y-range should be uniform (25% population in each quartile) to have similar confidence intervals in the predictions across the y-range
+      -  The number of points in each quartile is Q1: 5, Q2: 7, Q3: 3, Q4: 6
+      x  WARNING! Your data is slightly not uniform (Q3 has 3 points while Q2 has 7)
+
+Time PREDICT: 9.67 seconds
+

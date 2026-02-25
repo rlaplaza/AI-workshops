@@ -1,0 +1,139 @@
+AQME v 2.0.0 2026/02/25 19:10:42 
+Citation: AQME v 2.0.0, Alegre-Requena, J. V.; Sowndarya, S.; Perez-Soto, R.; Alturaifi, T.; Paton, R. AQME: Automated Quantum Mechanical Environments for Researchers and Educators. Wiley Interdiscip. Rev. Comput. Mol. Sci. 2023, 13, e1663 (DOI: 10.1002/wcms.1663).
+
+Command line used in AQME: python -m aqme --csearch --program "rdkit" --input "AQME_indiv.csv" --sample "5" --destination "C:\Users\D.Dalmau\OneDrive - unizar.es\Desktop\Curso ML Zrz\Clases\ROBERT\Examples_AQME\Solubility\CSEARCH" --nprocs "8" --auto_sample "low" --ff "MMFF"
+
+
+Starting CSEARCH with 21 job(s) (SDF, XYZ, CSV, etc. files might contain multiple jobs/structures inside)
+
+
+   ----- mol_100 -----
+
+   ----- mol_1000 -----
+
+o  Starting RDKit conformer sampling (mol_100)
+
+   ----- mol_1001 -----
+
+o  Starting RDKit conformer sampling (mol_1000)
+
+   ----- mol_1002 -----
+
+o  Starting RDKit conformer sampling (mol_1001)
+
+o  Starting RDKit conformer sampling (mol_1002)
+
+   ----- mol_1008 -----
+
+o  Starting RDKit conformer sampling (mol_1008)
+
+   ----- mol_1013 -----
+
+   ----- mol_1032 -----
+
+o  Starting RDKit conformer sampling (mol_1013)
+
+o  Starting RDKit conformer sampling (mol_1032)
+
+   ----- mol_104 -----
+
+o  Starting RDKit conformer sampling (mol_104)
+
+o  Applying filters to initial conformers (mol_104)
+
+o  Applying filters to initial conformers (mol_1013)
+
+o  Applying filters to initial conformers (mol_1008)
+
+o  Applying filters to initial conformers (mol_1032)
+
+   ----- mol_1045 -----
+
+   ----- mol_1048 -----
+
+o  Applying filters to initial conformers (mol_1000)
+
+o  Starting RDKit conformer sampling (mol_1045)
+
+o  Applying filters to initial conformers (mol_1001)
+
+   ----- mol_1050 -----
+
+   ----- mol_1058 -----
+
+o  Applying filters to initial conformers (mol_1045)
+
+o  Starting RDKit conformer sampling (mol_1048)
+
+   ----- mol_106 -----
+
+o  Applying filters to initial conformers (mol_1002)
+
+o  Starting RDKit conformer sampling (mol_1050)
+
+o  Applying filters to initial conformers (mol_1050)
+
+o  Applying filters to initial conformers (mol_1048)
+
+o  Starting RDKit conformer sampling (mol_1058)
+
+o  Starting RDKit conformer sampling (mol_106)
+
+   ----- mol_1067 -----
+
+o  Applying filters to initial conformers (mol_106)
+
+o  Applying filters to initial conformers (mol_100)
+
+   ----- mol_1069 -----
+
+   ----- mol_1070 -----
+
+o  Applying filters to initial conformers (mol_1058)
+
+   ----- mol_1076 -----
+
+   ----- mol_1082 -----
+
+o  Starting RDKit conformer sampling (mol_1070)
+
+o  Starting RDKit conformer sampling (mol_1082)
+
+o  Starting RDKit conformer sampling (mol_1076)
+
+   ----- mol_1083 -----
+
+x  MMFF is not compatible with the molecule, changing to UFF ((mol_1076))
+
+o  Applying filters to initial conformers (mol_1076)
+
+o  Starting RDKit conformer sampling (mol_1067)
+
+o  Starting RDKit conformer sampling (mol_1069)
+
+   ----- mol_1089 -----
+
+o  Applying filters to initial conformers (mol_1082)
+
+   ----- mol_109 -----
+
+o  Applying filters to initial conformers (mol_1069)
+
+o  Starting RDKit conformer sampling (mol_1083)
+
+o  Starting RDKit conformer sampling (mol_1089)
+
+o  Applying filters to initial conformers (mol_1089)
+
+o  Applying filters to initial conformers (mol_1067)
+
+o  Starting RDKit conformer sampling (mol_109)
+
+o  Applying filters to initial conformers (mol_109)
+
+o  Applying filters to initial conformers (mol_1070)
+
+o  Applying filters to initial conformers (mol_1083)
+
+Time CSEARCH: 1.55 seconds
+

@@ -1,0 +1,2 @@
+model,type,kfold,repeat_kfolds,seed,error_type,y,names,X_descriptors,params,combined_rmse,split
+MVL,reg,5,1,0,rmse,solubility,code_name,"[""Dipole module"", ""Fermi-level"", ""G solv. in H2O"", ""IP"", ""LUMO"", ""Polarizability"", ""Total FOD""]",{},0.9512453237132099,even

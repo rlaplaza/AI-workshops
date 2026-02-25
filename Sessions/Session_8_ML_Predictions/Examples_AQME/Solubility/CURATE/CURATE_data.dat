@@ -1,0 +1,63 @@
+ROBERT v 2.1.0 2026/02/25 19:10:39 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "solubility_short.csv" --y "solubility" --names "code_name" --repeat_kfolds "1" --aqme --descp_lvl "interpret"
+
+
+o  Starting data curation with the CURATE module
+
+o  Database AQME-ROBERT_interpret_solubility_short.csv loaded successfully, including:
+   - 21 datapoints
+   - 21 accepted descriptors
+   - 2 ignored descriptors
+   - 0 discarded descriptors
+
+o  Analyzing categorical variables
+   - No categorical variables were found
+
+o  Duplication filters activated
+   Excluded datapoints:
+   -  No datapoints were removed
+
+o  Correlation filter activated with these thresholds: thres_x = 0.7
+   Excluded descriptors:
+
+   - EA removed (R2 = 0.99 with Nucleofugality), kept more predictive descriptor
+   - Dispersion area removed (R2 = 0.99 with Dispersion volume), kept more predictive descriptor
+   - SASA removed (R2 = 0.98 with Dispersion volume), kept more predictive descriptor
+   - Chem. potential removed (R2 = 0.98 with Fermi-level), kept more predictive descriptor
+   - Nucleofugality removed (R2 = 0.97 with S0-T1 gap), kept more predictive descriptor
+   - Hardness removed (R2 = 0.95 with Softness), kept more predictive descriptor
+   - Electrofugality removed (R2 = 0.92 with IP), kept more predictive descriptor
+   - Dispersion volume removed (R2 = 0.90 with Polarizability), kept more predictive descriptor
+   - HOMO-LUMO gap removed (R2 = 0.81 with Softness), kept more predictive descriptor
+   - Softness removed (R2 = 0.80 with S0-T1 gap), kept more predictive descriptor
+   - Electrophilicity removed (R2 = 0.80 with LUMO), kept more predictive descriptor
+   - S0-T1 gap removed (R2 = 0.78 with Fermi-level), kept more predictive descriptor
+   - Total: 12 descriptors removed due to high correlation with other descriptors
+
+o  There are more descriptors than one-third of the data points. A Recursive Feature Elimination with Cross-Validation (RFECV) or permutation feature importance (PFI) using 1x 5_fold_cv will be performed to select the most relevant descriptors for each model
+
+   - GB: 7 descriptors selected (using RFECV)
+   - MVL: 7 descriptors selected (using RFECV)
+   - NN: 7 descriptors selected (using PFI)
+   - RF: 3 descriptors selected (using RFECV)
+
+   o Model GB: 7 descriptors remaining:
+      Dipole module, G of H-bonds H2O, G solv. in H2O, HOMO, IP, Polarizability, Total FOD
+
+   o Model MVL: 7 descriptors remaining:
+      Dipole module, Fermi-level, G solv. in H2O, IP, LUMO, Polarizability, Total FOD
+
+   o Model NN: 7 descriptors remaining:
+      Dipole module, Fermi-level, G solv. in H2O, HOMO, IP, LUMO, Polarizability
+
+   o Model RF: 3 descriptors remaining:
+      Dipole module, G of H-bonds H2O, IP
+
+o  Model-specific curated databases were stored in C:\Users\D.Dalmau\OneDrive - unizar.es\Desktop\Curso ML Zrz\Clases\ROBERT\Examples_AQME\Solubility\CURATE
+
+o  The Pearson heatmap was stored in CURATE/Pearson_heatmap.png.
+
+Time CURATE: 2.69 seconds
+

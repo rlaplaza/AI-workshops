@@ -1,0 +1,10 @@
+ROBERT v 2.1.0 2026/02/25 19:10:39 
+How to cite: Dalmau, D.; Alegre Requena, J. V. WIREs Comput Mol Sci. 2024, 14, e1733.
+
+Command line used in ROBERT: python -m robert --csv_name "solubility_short.csv" --y "solubility" --names "code_name" --repeat_kfolds "1" --aqme --descp_lvl "interpret"
+
+
+o  Starting the generation of AQME descriptors with the AQME module
+
+Time AQME: 18.85 seconds
+
