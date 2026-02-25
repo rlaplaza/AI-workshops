@@ -1,0 +1,2 @@
+model,type,kfold,repeat_kfolds,seed,error_type,y,names,X_descriptors,params,combined_rmse,split
+MVL,reg,5,1,0,rmse,Target_values,Name,"[""Csub-Csub"", ""Csub-H"", ""H-O"", ""x10"", ""x11"", ""x2"", ""x5"", ""x7"", ""x8"", ""x9""]",{},0.49113585839535523,even

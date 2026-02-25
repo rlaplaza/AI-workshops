@@ -1,0 +1,13 @@
+EXERCISES
+
+1) Use Robert_example.csv and specify two ML models different from the default ones.
+
+2) Use Robert_example.csv and deactivate the correlation filter in the CURATE module.
+
+3) Use Robert_example.csv and change the error type used in the GENERATE module for hyperparameter optimization.
+
+4) Use Robert_example.csv and change the number of descriptors displayed in the SHAP analysis.
+
+5) Use solubility_short.csv and specify that AQME calculations should use the denovo type of descriptors.
+
+6) Create the ChemDraw file with the molecules from solubility_short.csv and run easyROB from ChemDraw.

@@ -1,0 +1,2 @@
+model,type,kfold,repeat_kfolds,seed,error_type,y,names,X_descriptors,params,combined_rmse,split
+NN,reg,5,1,0,rmse,solubility,code_name,"['Polarizability', 'G solv. in H2O', 'HOMO']","{'hidden_layer_1': 5, 'hidden_layer_2': 4, 'max_iter': 282, 'alpha': 0.02183885515831766, 'tol': 2.4962741802550398e-05, 'random_state': 0, 'solver': 'lbfgs'}",0.739741508920413,even

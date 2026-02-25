@@ -1,0 +1,22 @@
+Dipole module,G of H-bonds H2O,IP,code_name,smiles,solubility,Set
+2.3556,-0.77,8.996,mol_1032,Brc1ccccc1Br,-3.5,Training
+0.3044,-0.3,8.6042,mol_100,CC(C)c1ccccc1,-3.27,Training
+2.3139,-0.75,8.8906,mol_1050,Clc1ccccc1Br,-3.19,Training
+0.001,-0.2373,9.4055,mol_1069,CCCC,-2.57,Test
+0.046,-0.25,9.5639,mol_109,CC(C)C,-2.55,Training
+1.0344,-0.4,9.8457,mol_1076,ICI,-2.34,Training
+0.4102,-0.3,8.7766,mol_1058,Cc1ccccc1,-2.21,Training
+1.129,-1.15,8.2293,mol_1045,Sc1ccccc1,-2.12,Training
+2.8277,-3.55,8.119,mol_1070,COc1ccccc1O,-1.96,Test
+1.959,-0.37,7.2237,mol_1002,CN(C)c1ccccc1,-1.92,Training
+0.0538,-0.7616,9.7306,mol_1013,BrCCBr,-1.68,Training
+2.2243,-0.74,8.3361,mol_1048,CSSC,-1.44,Training
+1.704,-0.63,9.7768,mol_1089,ClCC,-1.06,Training
+1.6079,-3.8,8.229,mol_1000,Cc1ccc(O)cc1,-0.73,Test
+1.3916,-0.93,10.0188,mol_104,ClCCl,-0.63,Training
+2.8582,-0.9166,9.3746,mol_1067,CCCC=O,-0.01,Training
+2.3052,-1.1318,10.1811,mol_1001,CCOC=O,0.15,Training
+3.8703,-0.73,10.5915,mol_1008,C=CC#N,0.15,Test
+4.0133,-1.1756,9.4558,mol_1082,CC=CC=O,0.32,Training
+2.1939,-1.23,10.8452,mol_106,COC=O,0.58,Training
+3.8294,-1.35,8.0549,mol_1083,CN(C)C(=O)N(C)C ,0.94,Training

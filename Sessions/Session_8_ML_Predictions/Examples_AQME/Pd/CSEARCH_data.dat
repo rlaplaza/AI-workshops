@@ -1,0 +1,156 @@
+AQME v 2.0.0 2026/02/25 19:13:26 
+Citation: AQME v 2.0.0, Alegre-Requena, J. V.; Sowndarya, S.; Perez-Soto, R.; Alturaifi, T.; Paton, R. AQME: Automated Quantum Mechanical Environments for Researchers and Educators. Wiley Interdiscip. Rev. Comput. Mol. Sci. 2023, 13, e1663 (DOI: 10.1002/wcms.1663).
+
+Command line used in AQME: python -m aqme --csearch --program "rdkit" --input "AQME_indiv.csv" --sample "5" --destination "C:\Users\D.Dalmau\OneDrive - unizar.es\Desktop\Curso ML Zrz\Clases\ROBERT\Examples_AQME\Pd\CSEARCH" --nprocs "8" --auto_sample "low" --ff "MMFF"
+
+
+Starting CSEARCH with 23 job(s) (SDF, XYZ, CSV, etc. files might contain multiple jobs/structures inside)
+
+
+   ----- 11 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])c3[H])=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c([H])c21) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+   ----- 12 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(c3c([H])c([H])c([H])c([H])c3[H])=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c([H])c3c([H])c([H])c4c([H])c([H])c([H])c5c([H])c([H])c(c21)c3c45) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+o  AQME recognized the following metal atoms: ['Pd'] (11)
+
+o  AQME recognized the following metal atoms: ['Pd'] (12)
+
+   ----- 13 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])c3[H])=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c([H])c(C([H])([H])[H])c([H])c([H])c21) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+o  AQME recognized the following metal atoms: ['Pd'] (13)
+
+   ----- 14 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])c3[H])=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c21) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+o  AQME recognized the following metal atoms: ['Pd'] (14)
+
+   ----- 15 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])c3[H])=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c(F)c([H])c(F)c([H])c21) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+o  AQME recognized the following metal atoms: ['Pd'] (15)
+
+   ----- 16 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(c3c([H])c([H])c([N+](=O)[O-])c([H])c3[H])=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c([H])c(OC([H])([H])[H])c([H])c(OC([H])([H])[H])c21) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+   ----- 17 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(c3c(F)c(F)c(F)c(F)c3F)=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c([H])c(OC([H])([H])[H])c([H])c(OC([H])([H])[H])c21) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+o  AQME recognized the following metal atoms: ['Pd'] (16)
+
+   ----- 18 -----
+
+x  WARNING! The SMILES string provided ([H]C1=C2C(=O)OC(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])c3[H])=[N+:2]2[Pd:1]([O]C(=O)C(F)(F)F)([n+]2c([H])c([H])c([H])c([H])c2[H])[c]2c([H])c3c(c([H])c21)C([H])([H])c1c([H])c([H])c([H])c([H])c1-3) contains mapped atoms, make sure you include their corresponding H atoms explicitly in the SMILES (otherwise they'll be omitted). For example, use [C:1]([H])([H])([H])C instead of [C:1]C.
+
+
+o  AQME recognized the following metal atoms: ['Pd'] (17)
+
+o  AQME recognized the following metal atoms: ['Pd'] (18)
+
+o  Starting RDKit conformer sampling (14_0)
+
+o  Starting RDKit conformer sampling (17_0)
+
+o  Starting RDKit conformer sampling (18_0)
+
+o  Starting RDKit conformer sampling (15_0)
+
+o  Starting RDKit conformer sampling (11_0)
+
+o  Starting RDKit conformer sampling (12_0)
+
+o  Starting RDKit conformer sampling (13_0)
+
+o  Starting RDKit conformer sampling (16_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (15_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (12_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (13_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (17_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (16_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (18_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (14_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (11_0)
+
+o  Applying filters to initial conformers (15_0)
+
+o  Applying filters to initial conformers (12_0)
+
+o  Starting RDKit conformer sampling (15_1)
+
+o  Applying filters to initial conformers (18_0)
+
+o  Starting RDKit conformer sampling (12_1)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (15_1)
+
+o  Applying filters to initial conformers (13_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (12_1)
+
+o  Selecting 5 conformers using a combination of energies and Butina RMS-based clustering. Users might disable this option with --auto_cluster False (18_0)
+
+o  Starting RDKit conformer sampling (18_1)
+
+o  Applying filters to initial conformers (17_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (18_1)
+
+o  Applying filters to initial conformers (16_0)
+
+o  Selecting 5 conformers using a combination of energies and Butina RMS-based clustering. Users might disable this option with --auto_cluster False (17_0)
+
+o  Starting RDKit conformer sampling (16_1)
+
+o  Applying filters to initial conformers (14_0)
+
+o  Starting RDKit conformer sampling (17_1)
+
+o  Applying filters to initial conformers (11_0)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (16_1)
+
+o  Selecting 5 conformers using a combination of energies and Butina RMS-based clustering. Users might disable this option with --auto_cluster False (14_0)
+
+o  Starting RDKit conformer sampling (14_1)
+
+o  Applying filters to initial conformers (12_1)
+
+x  ERROR: The structure is not valid or no conformers were obtained from this SMILES string (12_1)
+
+o  Starting RDKit conformer sampling (12_2)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (17_1)
+
+o  Selecting 5 conformers using a combination of energies and Butina RMS-based clustering. Users might disable this option with --auto_cluster False (11_0)
+
+o  Starting RDKit conformer sampling (11_1)
+
+o  Selecting 5 conformers using a combination of energies and Butina RMS-based clustering. Users might disable this option with --auto_cluster False (13_0)
+
+o  Starting RDKit conformer sampling (13_1)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (12_2)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (14_1)
+
+o  Applying filters to initial conformers (15_1)
+
+x  ERROR: The structure is not valid or no conformers were obtained from this SMILES string (15_1)
+
+o  Starting RDKit conformer sampling (15_2)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (13_1)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (11_1)
+o  Applying geometry filters (['[N+][Pd][n+]', 180]) (15_2)
+
+o  Applying filters to initial conformers (18_1)
+
+x  ERROR: The structure is not valid or no conformers were obtained from this SMILES string (18_1)
