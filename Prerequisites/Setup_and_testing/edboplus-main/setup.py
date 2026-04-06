@@ -27,7 +27,7 @@ setup(
         'pareto==1.1.1.post3',
         'pymoo==0.5.0',
         'scikit-learn>=1.4',
-        'scipy>=1.10.0',
+        'scipy==1.10.0',
         'seaborn',
         'matplotlib',
         'sympy==1.9',
