@@ -1,0 +1,5 @@
+﻿code_name,SMILES_1,SMILES_2
+Molecule1,P,C
+Molecule2,PC,CC
+Molecule3,P(C)C,CCC
+Molecule4,P(C)(C)C,CCCC
