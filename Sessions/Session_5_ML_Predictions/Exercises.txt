@@ -1,6 +1,6 @@
 EXERCISES
 
-1) Use Robert_example.csv and specify two ML models different from the default ones.
+1) Use Robert_example.csv and specify two ML models different from the default ones (GP, ADAB).
 
 2) Use Robert_example.csv and deactivate the correlation filter in the CURATE module.
 
